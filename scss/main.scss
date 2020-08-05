@@ -1,6 +1,12 @@
 $primary-color: #444;
 $secondary-color: #eece1a;
 
+@mixin easeOut {
+  transition: all 1.5s ease-out;
+}
+
+// SAVED SPOT AT 20:37
+// https://www.youtube.com/watch?v=HguAyYnWBuU
 * {
   box-sizing: border-box;
 }
@@ -49,4 +55,17 @@ header {
 main {
   padding: 4rem;
   height: 100%;
+
+  .icons {
+    margin-top: 1rem;
+
+    a {
+      padding: 0.4rem;
+
+      &:hover {
+        color: $secondary-color;
+        transition: all 1.5s ease-out;
+      }
+    }
+  }
 }
