@@ -1,10 +1,10 @@
 //PRIMARY CONFIG
 
-$primary-color: rgb(112, 111, 111);
+$primary-color: rgb(134, 117, 117);
 $secondary-color: #eccb0f;
 $show-home-image: true;
 $home-image: url(../img/343990.jpg);
-$background-opacity: 0.4;
+$background-opacity: 0.39;
 
 @mixin easeOut {
   transition: all 0.5s ease-out;
