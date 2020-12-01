@@ -6,7 +6,7 @@
   "homepage": "https://visalisa.github.io/portfolioV2",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b master -d build"
   },
   "author": "VisaLisa",
   "license": "MIT",
@@ -15,4 +15,3 @@
     "node-sass": "^4.14.1"
   }
 }
-
